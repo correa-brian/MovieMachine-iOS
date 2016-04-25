@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DB4A72282038C225E3A21E4 /* Pods_movie_trivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D915861BF93728F2CCF6DF /* Pods_movie_trivia.framework */; };
+		D35621B11CC52DC400BF5386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35621B01CC52DC400BF5386 /* AppDelegate.swift */; };
+		D35621B81CC52DC400BF5386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35621B71CC52DC400BF5386 /* Assets.xcassets */; };
+		D39D19291CCD45930090C88A /* MTInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39D19281CCD45920090C88A /* MTInstructionsViewController.swift */; };
+		D39D19301CCD51320090C88A /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39D192F1CCD51320090C88A /* camera@2x.png */; };
+		D39D19321CCD52ED0090C88A /* camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39D19311CCD52ED0090C88A /* camera@3x.png */; };
+		D39D19371CCD57F60090C88A /* hollywoodBackground@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = D39D19351CCD57F60090C88A /* hollywoodBackground@2X.png */; };
+		D39D19381CCD57F60090C88A /* hollywoodBackground@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D39D19361CCD57F60090C88A /* hollywoodBackground@3x.png */; };
+		D3C170211CC52ECD00CCAF85 /* MovieTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C170201CC52ECD00CCAF85 /* MovieTriviaViewController.swift */; };
+		D3C170241CC52EE700CCAF85 /* MTHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C170231CC52EE700CCAF85 /* MTHomeViewController.swift */; };
+		D3CEB2141CC54E86007F684D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CEB2131CC54E86007F684D /* Movie.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221D6C482A2B46565E0AE09B /* Pods-movie-trivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie-trivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-movie-trivia/Pods-movie-trivia.debug.xcconfig"; sourceTree = "<group>"; };
+		2DE7B49E83562A477D969E94 /* Pods-movie-trivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie-trivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-movie-trivia/Pods-movie-trivia.release.xcconfig"; sourceTree = "<group>"; };
+		95D915861BF93728F2CCF6DF /* Pods_movie_trivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movie_trivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35621AD1CC52DC300BF5386 /* movie-trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie-trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35621B01CC52DC400BF5386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35621B71CC52DC400BF5386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D35621BC1CC52DC400BF5386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39D19281CCD45920090C88A /* MTInstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTInstructionsViewController.swift; sourceTree = "<group>"; };
+		D39D192F1CCD51320090C88A /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		D39D19311CCD52ED0090C88A /* camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@3x.png"; sourceTree = "<group>"; };
+		D39D19351CCD57F60090C88A /* hollywoodBackground@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hollywoodBackground@2X.png"; sourceTree = "<group>"; };
+		D39D19361CCD57F60090C88A /* hollywoodBackground@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hollywoodBackground@3x.png"; sourceTree = "<group>"; };
+		D3C170201CC52ECD00CCAF85 /* MovieTriviaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTriviaViewController.swift; sourceTree = "<group>"; };
+		D3C170231CC52EE700CCAF85 /* MTHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTHomeViewController.swift; sourceTree = "<group>"; };
+		D3CEB2131CC54E86007F684D /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35621AA1CC52DC300BF5386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB4A72282038C225E3A21E4 /* Pods_movie_trivia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CBE4BC123AA5A8A110BD71D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221D6C482A2B46565E0AE09B /* Pods-movie-trivia.debug.xcconfig */,
+				2DE7B49E83562A477D969E94 /* Pods-movie-trivia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78764EBDA4152207A9954118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D915861BF93728F2CCF6DF /* Pods_movie_trivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35621A41CC52DC300BF5386 = {
+			isa = PBXGroup;
+			children = (
+				D35621AF1CC52DC400BF5386 /* movie-trivia */,
+				D35621AE1CC52DC300BF5386 /* Products */,
+				5CBE4BC123AA5A8A110BD71D /* Pods */,
+				78764EBDA4152207A9954118 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D35621AE1CC52DC300BF5386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D35621AD1CC52DC300BF5386 /* movie-trivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35621AF1CC52DC400BF5386 /* movie-trivia */ = {
+			isa = PBXGroup;
+			children = (
+				D39D192A1CCD4CD00090C88A /* images */,
+				D3CEB2121CC54E5C007F684D /* Models */,
+				D3C1701F1CC52EB600CCAF85 /* ViewControllers */,
+				D3C1701E1CC52EB300CCAF85 /* BaseClasses */,
+				D35621B01CC52DC400BF5386 /* AppDelegate.swift */,
+				D35621B71CC52DC400BF5386 /* Assets.xcassets */,
+				D35621BC1CC52DC400BF5386 /* Info.plist */,
+			);
+			path = "movie-trivia";
+			sourceTree = "<group>";
+		};
+		D39D192A1CCD4CD00090C88A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D39D19351CCD57F60090C88A /* hollywoodBackground@2X.png */,
+				D39D19361CCD57F60090C88A /* hollywoodBackground@3x.png */,
+				D39D192F1CCD51320090C88A /* camera@2x.png */,
+				D39D19311CCD52ED0090C88A /* camera@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D3C1701E1CC52EB300CCAF85 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D3C170201CC52ECD00CCAF85 /* MovieTriviaViewController.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		D3C1701F1CC52EB600CCAF85 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3C170231CC52EE700CCAF85 /* MTHomeViewController.swift */,
+				D39D19281CCD45920090C88A /* MTInstructionsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D3CEB2121CC54E5C007F684D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3CEB2131CC54E86007F684D /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D35621AC1CC52DC300BF5386 /* movie-trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35621BF1CC52DC400BF5386 /* Build configuration list for PBXNativeTarget "movie-trivia" */;
+			buildPhases = (
+				B95A2824E86C1B1C93BA5EC4 /* Check Pods Manifest.lock */,
+				D35621A91CC52DC300BF5386 /* Sources */,
+				D35621AA1CC52DC300BF5386 /* Frameworks */,
+				D35621AB1CC52DC300BF5386 /* Resources */,
+				F9E6D70F9AAD9CCE9EF180AA /* Embed Pods Frameworks */,
+				1470792ABBE952D6A7FD139A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "movie-trivia";
+			productName = "movie-trivia";
+			productReference = D35621AD1CC52DC300BF5386 /* movie-trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35621A51CC52DC300BF5386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "milkshake-systems";
+				TargetAttributes = {
+					D35621AC1CC52DC300BF5386 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 98626S38U9;
+					};
+				};
+			};
+			buildConfigurationList = D35621A81CC52DC300BF5386 /* Build configuration list for PBXProject "movie-trivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35621A41CC52DC300BF5386;
+			productRefGroup = D35621AE1CC52DC300BF5386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D35621AC1CC52DC300BF5386 /* movie-trivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35621AB1CC52DC300BF5386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39D19381CCD57F60090C88A /* hollywoodBackground@3x.png in Resources */,
+				D39D19321CCD52ED0090C88A /* camera@3x.png in Resources */,
+				D35621B81CC52DC400BF5386 /* Assets.xcassets in Resources */,
+				D39D19301CCD51320090C88A /* camera@2x.png in Resources */,
+				D39D19371CCD57F60090C88A /* hollywoodBackground@2X.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1470792ABBE952D6A7FD139A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movie-trivia/Pods-movie-trivia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95A2824E86C1B1C93BA5EC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E6D70F9AAD9CCE9EF180AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-movie-trivia/Pods-movie-trivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35621A91CC52DC300BF5386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39D19291CCD45930090C88A /* MTInstructionsViewController.swift in Sources */,
+				D3C170211CC52ECD00CCAF85 /* MovieTriviaViewController.swift in Sources */,
+				D3C170241CC52EE700CCAF85 /* MTHomeViewController.swift in Sources */,
+				D3CEB2141CC54E86007F684D /* Movie.swift in Sources */,
+				D35621B11CC52DC400BF5386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D35621BD1CC52DC400BF5386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35621BE1CC52DC400BF5386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35621C01CC52DC400BF5386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221D6C482A2B46565E0AE09B /* Pods-movie-trivia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "movie-trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milkshakesystems.12-movie-trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D35621C11CC52DC400BF5386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE7B49E83562A477D969E94 /* Pods-movie-trivia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "movie-trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milkshakesystems.12-movie-trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35621A81CC52DC300BF5386 /* Build configuration list for PBXProject "movie-trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35621BD1CC52DC400BF5386 /* Debug */,
+				D35621BE1CC52DC400BF5386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35621BF1CC52DC400BF5386 /* Build configuration list for PBXNativeTarget "movie-trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35621C01CC52DC400BF5386 /* Debug */,
+				D35621C11CC52DC400BF5386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D35621A51CC52DC300BF5386 /* Project object */;
+}
